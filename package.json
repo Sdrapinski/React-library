@@ -1,5 +1,5 @@
 {
-  "name": "@Sdrapinski/React-library",
+  "name": "@sdrapinski/react-library",
   "version": "0.0.1",
   "description": "\"# React-library\"",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sdrapinski/React-library.git"
+    "url": "git+https://github.com/sdrapinski/react-library.git"
   },
   "author": "Szymon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sdrapinski/React-library/issues"
+    "url": "https://github.com/sdrapinski/react-library/issues"
   },
-  "homepage": "https://github.com/Sdrapinski/React-library#readme",
+  "homepage": "https://github.com/sdrapinski/react-library#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
@@ -33,6 +33,6 @@
   ],
   "types": "dist/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Sdrapinski"
+    "registry": "https://npm.pkg.github.com/sdrapinski"
   }
 }
