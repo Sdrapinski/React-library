@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "ReactComponentLibrary/Button",
+  title: "ReactComponentLibrary/Navbar",
   component: NavBar,
 } as ComponentMeta<typeof NavBar>;
 
@@ -16,10 +16,10 @@ export const Test1 = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Test1.args = {
   children: (
-    <div>
-      {" "}
-      <div>Hej</div> <div>ja</div> <div>Działam</div>{" "}
-    </div>
+    <ul>
+      <li>hej</li>
+      <li>hej</li>
+    </ul>
   ),
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./NavBar.scss";
 
 export interface NavBarProps {
-  label: string;
+  sticky?: boolean;
   children?: React.ReactNode;
 }
 
